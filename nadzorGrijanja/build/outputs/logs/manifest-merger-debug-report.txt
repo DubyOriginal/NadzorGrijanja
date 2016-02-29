@@ -1,0 +1,82 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [NadzorGrijanja:iOIOLibAccessory:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLibAccessory\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [NadzorGrijanja:iOIOLibBT:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLibBT\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [NadzorGrijanja:iOIOLibBT:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLibBT\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:11:2-64
+MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
+MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
+MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
+MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:11:19-61
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:12:2-65
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:12:19-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:13:2-77
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:13:19-75
+application
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:15:5-31:19
+	android:label
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:16:9-42
+	android:theme
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:18:9-40
+activity#hr.duby.IOIOEva.NadzorGrijanjaActivity
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:20:9-27:20
+	android:label
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:21:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:25:27-74
+activity#hr.duby.IOIOEva.RealTimeGraph
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:28:19-48
+activity#hr.duby.IOIOEva.GraphData
+ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:29:9-56
+	android:name
+		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:29:19-44
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:2:1-33:12 reason: ioio.lib has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:2:1-33:12 reason: ioio.lib requested WRITE_EXTERNAL_STORAGE

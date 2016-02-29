@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/tab2">
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_centerInParent="false"
+            android:text="Data"
+            android:textColor="#FFBF00"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txt2"
+            android:clickable="false"
+                android:editable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:freezesText="true"
+                android:gravity="top"
+                android:height="370dp"
+                android:inputType="none"
+                android:minWidth="190dp"
+                android:selectAllOnFocus="false"
+                android:text="transmition status:"
+                android:textSize="11sp"
+            android:layout_weight="1">
+
+                <requestFocus />
+            </EditText>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                    android:id="@+id/buttonSR2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/buttonCL"
+                    android:layout_alignTop="@+id/title"
+                    android:text="Transfer"
+                android:layout_weight="2" />
+
+            <Button
+                    android:id="@+id/buttonCL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonSR2"
+                android:layout_toRightOf="@+id/title"
+                    android:text="Clear"
+                android:layout_weight="2" />
+
+            <CheckBox
+                    android:id="@+id/cbRW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/buttonCL"
+                    android:layout_alignParentBottom="true"
+                android:text="R/W"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NadzorGrijanja.iml" filepath="$PROJECT_DIR$/NadzorGrijanja.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOIOLib/iOIOLib.iml" filepath="$PROJECT_DIR$/iOIOLib/iOIOLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOIOLibAccessory/iOIOLibAccessory.iml" filepath="$PROJECT_DIR$/iOIOLibAccessory/iOIOLibAccessory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOIOLibBT/iOIOLibBT.iml" filepath="$PROJECT_DIR$/iOIOLibBT/iOIOLibBT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nadzorGrijanja/nadzorGrijanja.iml" filepath="$PROJECT_DIR$/nadzorGrijanja/nadzorGrijanja.iml" />
+    </modules>
+  </component>
+</project>

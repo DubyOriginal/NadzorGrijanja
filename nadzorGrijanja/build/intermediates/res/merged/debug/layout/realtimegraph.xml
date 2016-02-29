@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF666666">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <hr.duby.IOIOEva.GraphView
+                android:id="@+id/graphRT"
+                android:layout_width="440dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnStart"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Start" />
+
+                <Button
+                    android:id="@+id/btnStop"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Stop" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="23dp"
+                    android:text="Sampling interval:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:id="@+id/etSampInt"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="4dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="2">
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="s"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="X div:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/etXspeed"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="13" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:text="px"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Real time graph"
+                android:textColor="#FF0F00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="data is storing to:"
+                android:textColor="#FFF0F0F0"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDataTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MyTable"
+                android:textColor="#FFFFF000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:text="change table"
+                android:textColor="#FFF0F0F0"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/spinnerLoad"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Load Table" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="-----------------"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:text="select sensor:"
+                android:textColor="#FFF0F0F0"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/spSensor"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Load Table" />
+
+            <TextView
+                android:id="@+id/tvSensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="tempP"
+                android:textColor="#FFFFF000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBackToMain"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back To Main"
+                    android:textColor="#FFFF0000"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

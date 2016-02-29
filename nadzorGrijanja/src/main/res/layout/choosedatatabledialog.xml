@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rgTableList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|fill"
+        android:layout_weight="0.14"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:checked="true"
+            android:text="MyTable" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Default" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Default2" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.10"
+        android:gravity="center|top" >
+
+        <Button
+            android:id="@+id/dialogBtnLoad"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Load selected " />
+
+        <Button
+            android:id="@+id/dialogBtnCancle"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Cancle" />
+
+    </LinearLayout>
+
+</LinearLayout>

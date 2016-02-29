@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="System Monitor"
+        android:textColor="#FFBF00"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select table:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp">
+
+        <Spinner
+                android:id="@+id/spinnerLoad"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+            android:text="Chose table:"
+                android:textColor="#000000"
+                android:textSize="20dip"
+            android:layout_weight="2" />
+
+        <TextView
+                android:id="@+id/tvloadedTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="myTable"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFF80A0"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/tvDataBase"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+            android:autoText="false"
+                android:background="#FFFFFF"
+                android:clickable="true"
+                android:freezesText="true"
+            android:inputType="textMultiLine"
+                android:linksClickable="false"
+                android:overScrollMode="ifContentScrolls"
+                android:padding="5dp"
+                android:paddingLeft="0dp"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="vertical"
+                android:selectAllOnFocus="false"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="15sp"
+            android:gravity="top"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <Button
+                    android:id="@+id/btnCreateTable"
+                    android:layout_width="75dp"
+                    android:layout_height="50dp"
+                android:text="Create Table"
+                    android:textSize="12sp"
+                android:layout_marginBottom="15dp" />
+
+            <Button
+                    android:id="@+id/btnLoadTable"
+                    android:layout_width="75dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:text="Load Table"
+                    android:textSize="12sp"
+                android:layout_marginBottom="15dp" />
+
+            <Button
+                    android:id="@+id/btnDropTable"
+                    android:layout_width="75dp"
+                    android:layout_height="50dp"
+                    android:text="Drop Table"
+                    android:textSize="12sp"
+                android:layout_marginBottom="15dp" />
+
+            <Button
+                    android:id="@+id/btnDeleteTable"
+                    android:layout_width="75dp"
+                    android:layout_height="50dp"
+                    android:text="Delete Table"
+                    android:textSize="12sp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_horizontal">
+
+                <Button
+                        android:id="@+id/btnExportData"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:text="Export Data" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

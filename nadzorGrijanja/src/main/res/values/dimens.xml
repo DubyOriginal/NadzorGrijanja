@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_A">14sp</dimen>     <!-- old 17 -->
+    <dimen name="text_size_B">17sp</dimen>     <!-- old 20 -->
+    <dimen name="text_size_C">20sp</dimen>     <!-- old 24 -->
+
+    <!-- BORDERS -->
+    <!-- ***************************** -->
+    <dimen name="border_left">30dp</dimen>      <!-- old 50 -->
+    <dimen name="border_top">10dp</dimen>       <!-- old 10 -->
+    <dimen name="border_bottom">30dp</dimen>    <!-- old 55 -->
+    <dimen name="border_right">10dp</dimen>     <!-- old 5 -->
+
+</resources>
