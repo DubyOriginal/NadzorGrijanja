@@ -101,7 +101,7 @@ public class NadzorGrijanjaActivity extends IOIOActivity implements View.OnClick
 	short tbr = 0; // varijabla za Debuging
 	int tabtag = 0;
 
-	// **********************************************************
+	// *******************************************************************
 	// master WRITE variables
 	byte address = 42; // 42 IOIO -> 84 PIC
 	byte IOIOMAC = 27; // IOIO MAC Address
