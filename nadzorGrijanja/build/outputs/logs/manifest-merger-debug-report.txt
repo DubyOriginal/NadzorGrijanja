@@ -19,7 +19,6 @@ uses-sdk
 ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:7:5-9:41
 MERGED from [NadzorGrijanja:iOIOLibAccessory:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLibAccessory\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [NadzorGrijanja:iOIOLibBT:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLibBT\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [NadzorGrijanja:iOIOLibBT:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLibBT\unspecified\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
 		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
@@ -30,9 +29,6 @@ MERGED from [NadzorGrijanja:iOIOLibBT:unspecified] C:\ANDROID\Projekti_HOME\Nadz
 		INJECTED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:11:2-64
-MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
-MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
-MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
 MERGED from [NadzorGrijanja:iOIOLib:unspecified] C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\build\intermediates\exploded-aar\NadzorGrijanja\iOIOLib\unspecified\AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from C:\ANDROID\Projekti_HOME\NadzorGrijanja\nadzorGrijanja\src\main\AndroidManifest.xml:11:19-61

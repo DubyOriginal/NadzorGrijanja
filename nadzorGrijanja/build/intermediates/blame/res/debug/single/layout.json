@@ -20,12 +20,12 @@
         "source": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\src\\main\\res\\layout\\tab1_layout.xml"
     },
     {
-        "merged": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\build\\intermediates\\res\\merged\\debug\\layout\\tab3_layout.xml",
-        "source": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\src\\main\\res\\layout\\tab3_layout.xml"
-    },
-    {
         "merged": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\build\\intermediates\\res\\merged\\debug\\layout\\tab2_layout.xml",
         "source": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\src\\main\\res\\layout\\tab2_layout.xml"
+    },
+    {
+        "merged": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\build\\intermediates\\res\\merged\\debug\\layout\\tab3_layout.xml",
+        "source": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\src\\main\\res\\layout\\tab3_layout.xml"
     },
     {
         "merged": "C:\\ANDROID\\Projekti_HOME\\NadzorGrijanja\\nadzorGrijanja\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
